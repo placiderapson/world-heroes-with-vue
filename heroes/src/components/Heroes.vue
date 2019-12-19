@@ -40,8 +40,14 @@ export default {
 
 <style lang="scss" scoped>
     #heroes-wrapper {
+        border: solid 0.4rem #41B883;
         &__list {
             list-style: none;
+
+            li {
+                font-weight: bold;
+                font-size: 1rem;
+            }
         }
     }
 </style>
