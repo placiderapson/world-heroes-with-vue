@@ -52,6 +52,10 @@ export default {
                 border-bottom: solid #E9F0F2;
                 margin-bottom: 1.2rem;
             }
+
+            li:hover {
+                cursor: pointer;
+            }
         }
     }
 </style>
