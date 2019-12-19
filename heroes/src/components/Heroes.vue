@@ -40,13 +40,17 @@ export default {
 
 <style lang="scss" scoped>
     #heroes-wrapper {
-        border: solid 0.4rem #41B883;
+        width: 60%;
+        margin: 0 auto;
+        
         &__list {
             list-style: none;
-
+            
             li {
                 font-weight: bold;
                 font-size: 1rem;
+                border-bottom: solid #E9F0F2;
+                margin-bottom: 1.2rem;
             }
         }
     }
