@@ -5,7 +5,7 @@
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
-                        <strong>Abraham Lincoln (February 12, 1809 – April 15, 1865)</strong> was the 16th President of the United States, serving from March 1861 until his assassination in April 1865. Lincoln led the United States through its greatest constitutional, military, and moral crises—the American Civil War—preserving the Union, abolishing slavery, strengthening the national government and modernizing the economy. Reared in a poor family on the western frontier, Lincoln was self-educated, and became a country lawyer, a Whig Party leader, Illinois state legislator during the 1830s, and a one-term member of the United States House of Representatives during the 1840s.
+                        <strong>{{ heroes[0].nameAndLifeTime }}</strong> {{ heroes[0].background }}
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
@@ -13,7 +13,7 @@
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
-                        <strong>Nelson Rolihlahla Mandela born 18 July 1918</strong> is a South African politician who was the President of South Africa from 1994 to 1999, the first ever to be elected in a fully representative and multi-racial election. His administration focused on dismantling the legacy of apartheid, as well as tackling racism, poverty and inequality.
+                        <strong>{{ heroes[1].nameAndLifeTime }}</strong> {{ heroes[1].background }}
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
@@ -21,7 +21,7 @@
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
-                        <strong>Leonardo di ser Piero da Vinci (April 15, 1452 – May 2, 1519, Old Style)</strong> was an Italian Renaissance polymath: painter, sculptor, architect, musician, mathematician, engineer, inventor, anatomist, geologist, cartographer, botanist, and writer. His genius, perhaps more than that of any other figure, epitomized the Renaissance humanist ideal.
+                        <strong>{{ heroes[2].nameAndLifeTime }}</strong> {{ heroes[2].background }}
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
@@ -29,7 +29,7 @@
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
-                        <strong>Martin Luther King, Jr. (January 15, 1929 – April 4, 1968)</strong> was an American clergyman, activist, and leader in the African-American Civil Rights Movement. He is best known for his role in the advancement of civil rights using nonviolent civil disobedience.
+                        <strong>{{ heroes[3].nameAndLifeTime }}</strong> {{ heroes[3].background }}
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
@@ -37,7 +37,7 @@
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
-                        <strong>Mohandas Karamchand Gandhi 2 October 1869 – 30 January 1948)</strong>, commonly known as Mahatma Gandhi, was the preeminent leader of Indian nationalism in British-ruled India. Employing non-violent civil disobedience, Gandhi led India to independence and inspired movements for non-violence, civil rights and freedom across the world.
+                        <strong>{{ heroes[4].nameAndLifeTime }}</strong> {{ heroes[4].background }}
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
@@ -45,7 +45,7 @@
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
-                        <strong>William Shakespeare (26 April 1564 (baptised) – 23 April 1616)</strong> was an English poet and playwright, widely regarded as the greatest writer in the English language and the world's pre-eminent dramatist. He is often called England's national poet and the "Bard of Avon".
+                        <strong>{{ heroes[5].nameAndLifeTime }}</strong> {{ heroes[5].background }}
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
@@ -53,7 +53,7 @@
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
-                        <strong>George Washington (February 22, 1732 [O.S. February 11, 1731] – December 14, 1799)</strong> was one of the Founding Fathers of the United States, serving as the commander-in-chief of the Continental Army during the American Revolutionary War.
+                        <strong>{{ heroes[6].nameAndLifeTime }}</strong> {{ heroes[6].background }}
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
@@ -61,7 +61,7 @@
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
-                        <strong>Sir Isaac Newton PRS MP (25 December 1642 – 20 March 1727)</strong> was an English physicist and mathematician who is widely regarded as one of the most influential scientists of all time and as a key figure in the scientific revolution. His book Philosophiæ Naturalis Principia Mathematica ("Mathematical Principles of Natural Philosophy"), first published in 1687, laid the foundations for most of classical mechanics.
+                        <strong>{{ heroes[8].nameAndLifeTime }}</strong> {{ heroes[7].background }}
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
@@ -69,7 +69,7 @@
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
-                        <strong>Alexander III of Macedon (20/21 July 356 – 10/11 June 323 BC)</strong>, commonly known as Alexander the Great was a king of Macedon, a state in northern ancient Greece. Born in Pella in 356 BC, Alexander was tutored by Aristotle until the age of 16. By the age of thirty, he had created one of the largest empires of the ancient world, stretching from the Ionian Sea to the Himalayas.
+                        <strong>{{ heroes[8].nameAndLifeTime }}</strong> {{ heroes[8].background }}
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
@@ -77,7 +77,7 @@
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
-                        <strong>Elizabeth I (7 September 1533 – 24 March 1603)</strong> was queen of England and Ireland from 17 November 1558 until her death. Sometimes called "The Virgin Queen", "Gloriana" or "Good Queen Bess", Elizabeth was the fifth and last monarch of the Tudor dynasty.
+                        <strong>{{ heroes[9].nameAndLifeTime }}</strong> {{ heroes[9].background }}
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
@@ -85,10 +85,11 @@
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
-                        <strong>Benjamin Franklin (January 17, 1706 [O.S. January 6, 1705] – April 17, 1790)</strong> was one of the Founding Fathers of the United States.
+                        <strong>{{ heroes[10].nameAndLifeTime }}</strong> {{ heroes[10].background }}
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
+                <!-- Proceed from here! -->
             <li>{{ heroes[11].fullName }}</li>
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
@@ -228,38 +229,61 @@ export default {
         return {
             heroes: [
                 {
-                    fullName: 'Abraham Lincoln'
+                    fullName: 'Abraham Lincoln',
+                    nameAndLifeTime: 'Abraham Lincoln (February 12, 1809 – April 15, 1865)',
+                    background: 'was the 16th President of the United States, serving from March 1861 until his assassination in April 1865. Lincoln led the United States through its greatest constitutional, military, and moral crises—the American Civil War—preserving the Union, abolishing slavery, strengthening the national government and modernizing the economy. Reared in a poor family on the western frontier, Lincoln was self-educated, and became a country lawyer, a Whig Party leader, Illinois state legislator during the 1830s, and a one-term member of the United States House of Representatives during the 1840s.'
                 },
                 {
-                    fullName: 'Nelson Mandela'
+                    fullName: 'Nelson Mandela',
+                    nameAndLifeTime: 'Nelson Rolihlahla Mandela born 18 July 1918',
+                    background: 'is a South African politician who was the President of South Africa from 1994 to 1999, the first ever to be elected in a fully representative and multi-racial election. His administration focused on dismantling the legacy of apartheid, as well as tackling racism, poverty and inequality.'
                 },
                 {
-                    fullName: 'Leonardo Da Vinci'
+                    fullName: 'Leonardo Da Vinci',
+                    nameAndLifeTime: 'Leonardo di ser Piero da Vinci (April 15, 1452 – May 2, 1519, Old Style)',
+                    background: 'was an Italian Renaissance polymath: painter, sculptor, architect, musician, mathematician, engineer, inventor, anatomist, geologist, cartographer, botanist, and writer. His genius, perhaps more than that of any other figure, epitomized the Renaissance humanist ideal.'
                 },
                 {
-                    fullName: 'Martin Luther King Jr.'
+                    fullName: 'Martin Luther King Jr.',
+                    nameAndLifeTime: 'Martin Luther King, Jr. (January 15, 1929 – April 4, 1968)',
+                    background: 'was an American clergyman, activist, and leader in the African-American Civil Rights Movement. He is best known for his role in the advancement of civil rights using nonviolent civil disobedience.'
                 },
                 {
-                    fullName: 'Mahatma Gandhi'
+                    fullName: 'Mahatma Gandhi',
+                    nameAndLifeTime: 'Mohandas Karamchand Gandhi 2 October 1869 – 30 January 1948)',
+                    background: ', commonly known as Mahatma Gandhi, was the preeminent leader of Indian nationalism in British-ruled India. Employing non-violent civil disobedience, Gandhi led India to independence and inspired movements for non-violence, civil rights and freedom across the world.'
                 },
                 {
-                    fullName: 'William Shakespeare'
+                    fullName: 'William Shakespeare',
+                    nameAndLifeTime: 'William Shakespeare (26 April 1564 (baptised) – 23 April 1616)',
+                    background: 'was an English poet and playwright, widely regarded as the greatest writer in the English language and the world\'s pre-eminent dramatist. He is often called England\'s national poet and the "Bard of Avon".'
                 },
                 {
-                    fullName: 'George Washington'
+                    fullName: 'George Washington',
+                    nameAndLifeTime: 'George Washington (February 22, 1732 [O.S. February 11, 1731] – December 14, 1799)',
+                    background: 'was one of the Founding Fathers of the United States, serving as the commander-in-chief of the Continental Army during the American Revolutionary War.'
                 },
                 {
-                    fullName: 'Isaac Newton'
+                    fullName: 'Isaac Newton',
+                    nameAndLifeTime: 'Sir Isaac Newton PRS MP (25 December 1642 – 20 March 1727)',
+                    background: 'was an English physicist and mathematician who is widely regarded as one of the most influential scientists of all time and as a key figure in the scientific revolution. His book Philosophiæ Naturalis Principia Mathematica ("Mathematical Principles of Natural Philosophy"), first published in 1687, laid the foundations for most of classical mechanics.'
                 },
                 {
-                    fullName: 'Alexander the Great'
+                    fullName: 'Alexander the Great',
+                    nameAndLifeTime: 'Alexander III of Macedon (20/21 July 356 – 10/11 June 323 BC)',
+                    background: ', commonly known as Alexander the Great was a king of Macedon, a state in northern ancient Greece. Born in Pella in 356 BC, Alexander was tutored by Aristotle until the age of 16. By the age of thirty, he had created one of the largest empires of the ancient world, stretching from the Ionian Sea to the Himalayas.'
                 },
                 {
-                    fullName: 'Queen Elizabeth I'
+                    fullName: 'Queen Elizabeth I',
+                    nameAndLifeTime: 'Elizabeth I (7 September 1533 – 24 March 1603)',
+                    background: 'was queen of England and Ireland from 17 November 1558 until her death. Sometimes called "The Virgin Queen", "Gloriana" or "Good Queen Bess", Elizabeth was the fifth and last monarch of the Tudor dynasty.'
                 },
                 {
-                    fullName: 'Benjamin Franklin'
+                    fullName: 'Benjamin Franklin',
+                    nameAndLifeTime: 'Benjamin Franklin (January 17, 1706 [O.S. January 6, 1705] – April 17, 1790)',
+                    background: 'was one of the Founding Fathers of the United States.'
                 },
+                // TOD: Proceed from here
                 {
                     fullName: 'Michelangelo'
                 },
@@ -338,7 +362,7 @@ export default {
             margin: 1.5rem 0;
             background: #E9F0F2;
             padding: 0.8rem;
-            display: none;
+            // display: none;
         }
 
         &__bg-title {
