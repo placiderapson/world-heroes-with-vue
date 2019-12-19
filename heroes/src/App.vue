@@ -1,12 +1,18 @@
 <template>
   <div id="app">
     <h1 id="app__title">World's Well-Known Heroes</h1>
+    <Heroes />
   </div>
 </template>
 
 <script>
+import Heroes from './components/Heroes';
+
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    Heroes
+  }
 }
 </script>
 
