@@ -1,7 +1,7 @@
 <template>
     <div class="heroes-wrapper">
         <ol class="heroes-wrapper__list">
-            <li>Abraham Lincoln</li>
+            <li>{{ heroes[0].fullName }}</li>
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
@@ -9,7 +9,7 @@
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
-            <li>Nelson Mandela</li>
+            <li>{{ heroes[1].fullName }}</li>
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
@@ -17,7 +17,7 @@
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
-            <li>Leonardo Da Vinci</li>
+            <li>{{ heroes[2].fullName }}</li>
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
@@ -25,7 +25,7 @@
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
-            <li>Martin Luther King Jr.</li>
+            <li>{{ heroes[3].fullName }}</li>
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
@@ -33,7 +33,7 @@
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
-            <li>Mahatma Gandhi</li>
+            <li>{{ heroes[4].fullName }}</li>
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
@@ -41,7 +41,7 @@
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
-            <li>William Shakespeare</li>
+            <li>{{ heroes[5].fullName }}</li>
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
@@ -49,7 +49,7 @@
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
-            <li>George Washington</li>
+            <li>{{ heroes[6].fullName }}</li>
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
@@ -57,7 +57,7 @@
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
-            <li>Isaac Newton</li>
+            <li>{{ heroes[7].fullName }}</li>
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
@@ -65,7 +65,7 @@
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
-            <li>Alexander the Great</li>
+            <li>{{ heroes[8].fullName }}</li>
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
@@ -73,7 +73,7 @@
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
-            <li>Queen Elizabeth I</li>
+            <li>{{ heroes[9].fullName }}</li>
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
@@ -81,7 +81,7 @@
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
-            <li>Benjamin Franklin</li>
+            <li>{{ heroes[10].fullName }}</li>
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
@@ -89,7 +89,7 @@
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
-            <li>Michelangelo</li>
+            <li>{{ heroes[11].fullName }}</li>
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
@@ -97,7 +97,7 @@
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
-            <li>Helen Keller</li>
+            <li>{{ heroes[12].fullName }}</li>
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
@@ -105,7 +105,7 @@
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
-            <li>Ludwig van Beethoven</li>
+            <li>{{ heroes[13].fullName }}</li>
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
@@ -113,7 +113,7 @@
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
-            <li>Walt Disney</li>
+            <li>{{ heroes[14].fullName }}</li>
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
@@ -121,7 +121,7 @@
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
-            <li>Wright brothers</li>
+            <li>{{ heroes[15].fullName }}</li>
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
@@ -129,7 +129,7 @@
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
-            <li>Franklin D. Roosevelt</li>
+            <li>{{ heroes[16].fullName }}</li>
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
@@ -137,7 +137,7 @@
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
-            <li>Charles Darwin</li>
+            <li>{{ heroes[17].fullName }}</li>
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
@@ -145,7 +145,7 @@
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
-            <li>Albert Einstein</li>
+            <li>{{ heroes[18].fullName }}</li>
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
@@ -153,7 +153,7 @@
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
-            <li>Thomas Jefferson</li>
+            <li>{{ heroes[19].fullName }}</li>
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
@@ -161,7 +161,7 @@
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
-            <li>Jackie Robinson</li>
+            <li>{{ heroes[20].fullName }}</li>
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
@@ -169,7 +169,7 @@
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
-            <li>Harriet Tubman</li>
+            <li>{{ heroes[21].fullName }}</li>
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
@@ -177,7 +177,7 @@
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
-            <li>Galileo Galilei</li>
+            <li>{{ heroes[22].fullName }}</li>
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
@@ -185,7 +185,7 @@
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
-            <li>Rosa Parks</li>
+            <li>{{ heroes[23].fullName }}</li>
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
@@ -193,7 +193,7 @@
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
-            <li>Neil Armstrong</li>
+            <li>{{ heroes[24].fullName }}</li>
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
@@ -201,7 +201,7 @@
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
-            <li>Napoleon Bonaparte</li>
+            <li>{{ heroes[25].fullName }}</li>
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
@@ -209,7 +209,7 @@
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
-            <li>Spartacus</li>
+            <li>{{ heroes[26].fullName }}</li>
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
@@ -223,7 +223,94 @@
 
 <script>
 export default {
-    name: 'Heroes'
+    name: 'Heroes',
+    data() {
+        return {
+            heroes: [
+                {
+                    fullName: 'Abraham Lincoln'
+                },
+                {
+                    fullName: 'Nelson Mandela'
+                },
+                {
+                    fullName: 'Leonardo Da Vinci'
+                },
+                {
+                    fullName: 'Martin Luther King Jr.'
+                },
+                {
+                    fullName: 'Mahatma Gandhi'
+                },
+                {
+                    fullName: 'William Shakespeare'
+                },
+                {
+                    fullName: 'George Washington'
+                },
+                {
+                    fullName: 'Isaac Newton'
+                },
+                {
+                    fullName: 'Alexander the Great'
+                },
+                {
+                    fullName: 'Queen Elizabeth I'
+                },
+                {
+                    fullName: 'Benjamin Franklin'
+                },
+                {
+                    fullName: 'Michelangelo'
+                },
+                {
+                    fullName: 'Helen Keller'
+                },
+                {
+                    fullName: 'Ludwig van Beethoven'
+                },
+                {
+                    fullName: 'Walt Disney'
+                },
+                {
+                    fullName: 'Wright brothers'
+                },
+                {
+                    fullName: 'Franklin D. Roosevelt'
+                },
+                {
+                    fullName: 'Charles Darwin'
+                },
+                {
+                    fullName: 'Albert Einstein'
+                },
+                {
+                    fullName: 'Thomas Jefferson'
+                },
+                {
+                    fullName: 'Jackie Robinson'
+                },
+                {
+                    fullName: 'Harriet Tubman'
+                },
+                {
+                    fullName: 'Galileo Galilei'
+                },
+                {
+                    fullName: 'Rosa Parks'
+                },
+                {
+                    fullName: 'Neil Armstrong'
+                },
+                {
+                    fullName: 'Napoleon Bonaparte'
+                },
+                {
+                    fullName: 'Spartacus'
+                }
+            ]
+        }
+    },
 }
 </script>
 
