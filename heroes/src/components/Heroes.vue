@@ -251,6 +251,7 @@ export default {
             margin: 1.5rem 0;
             background: #E9F0F2;
             padding: 0.8rem;
+            display: none;
         }
 
         &__bg-title {
