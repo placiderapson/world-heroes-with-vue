@@ -23,7 +23,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #34495E;
-  margin-top: 30px;
+  margin: 50px auto;
 
   &__title {
     text-transform: uppercase;
