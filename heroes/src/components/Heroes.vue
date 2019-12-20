@@ -1,221 +1,221 @@
 <template>
     <div class="heroes-wrapper">
         <ol class="heroes-wrapper__list">
-            <li>{{ heroes[0].fullName }}</li>
-                <div class="heroes-wrapper__bg-wrapper">
+            <li @click="displayBackground('one')">{{ heroes[0].fullName }}</li>
+                <div class="heroes-wrapper__bg-wrapper heroes-wrapper__bg-wrapper--one">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
                         <strong>{{ heroes[0].nameAndLifeTime }}</strong> {{ heroes[0].background }}
                     </p>
-                    <button class="heroes-wrapper__bg-btn">Hide</button>
+                    <button class="heroes-wrapper__bg-btn" @click="hideBackground('one')">Hide</button>
                 </div>
-            <li>{{ heroes[1].fullName }}</li>
-                <div class="heroes-wrapper__bg-wrapper">
+            <li @click="displayBackground('two')">{{ heroes[1].fullName }}</li>
+                <div class="heroes-wrapper__bg-wrapper heroes-wrapper__bg-wrapper--two">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
                         <strong>{{ heroes[1].nameAndLifeTime }}</strong> {{ heroes[1].background }}
                     </p>
-                    <button class="heroes-wrapper__bg-btn">Hide</button>
+                    <button class="heroes-wrapper__bg-btn" @click="hideBackground('two')">Hide</button>
                 </div>
-            <li>{{ heroes[2].fullName }}</li>
-                <div class="heroes-wrapper__bg-wrapper">
+            <li @click="displayBackground('three')">{{ heroes[2].fullName }}</li>
+                <div class="heroes-wrapper__bg-wrapper heroes-wrapper__bg-wrapper--three">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
                         <strong>{{ heroes[2].nameAndLifeTime }}</strong> {{ heroes[2].background }}
                     </p>
-                    <button class="heroes-wrapper__bg-btn">Hide</button>
+                    <button class="heroes-wrapper__bg-btn" @click="hideBackground('three')">Hide</button>
                 </div>
-            <li>{{ heroes[3].fullName }}</li>
-                <div class="heroes-wrapper__bg-wrapper">
+            <li @click="displayBackground('four')">{{ heroes[3].fullName }}</li>
+                <div class="heroes-wrapper__bg-wrapper heroes-wrapper__bg-wrapper--four">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
                         <strong>{{ heroes[3].nameAndLifeTime }}</strong> {{ heroes[3].background }}
                     </p>
-                    <button class="heroes-wrapper__bg-btn">Hide</button>
+                    <button class="heroes-wrapper__bg-btn" @click="hideBackground('four')">Hide</button>
                 </div>
-            <li>{{ heroes[4].fullName }}</li>
-                <div class="heroes-wrapper__bg-wrapper">
+            <li @click="displayBackground('five')">{{ heroes[4].fullName }}</li>
+                <div class="heroes-wrapper__bg-wrapper heroes-wrapper__bg-wrapper--five">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
                         <strong>{{ heroes[4].nameAndLifeTime }}</strong> {{ heroes[4].background }}
                     </p>
-                    <button class="heroes-wrapper__bg-btn">Hide</button>
+                    <button class="heroes-wrapper__bg-btn" @click="hideBackground('five')">Hide</button>
                 </div>
-            <li>{{ heroes[5].fullName }}</li>
-                <div class="heroes-wrapper__bg-wrapper">
+            <li @click="displayBackground('six')">{{ heroes[5].fullName }}</li>
+                <div class="heroes-wrapper__bg-wrapper heroes-wrapper__bg-wrapper--six">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
                         <strong>{{ heroes[5].nameAndLifeTime }}</strong> {{ heroes[5].background }}
                     </p>
-                    <button class="heroes-wrapper__bg-btn">Hide</button>
+                    <button class="heroes-wrapper__bg-btn" @click="hideBackground('six')">Hide</button>
                 </div>
-            <li>{{ heroes[6].fullName }}</li>
-                <div class="heroes-wrapper__bg-wrapper">
+            <li @click="displayBackground('seven')">{{ heroes[6].fullName }}</li>
+                <div class="heroes-wrapper__bg-wrapper heroes-wrapper__bg-wrapper--seven">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
                         <strong>{{ heroes[6].nameAndLifeTime }}</strong> {{ heroes[6].background }}
                     </p>
-                    <button class="heroes-wrapper__bg-btn">Hide</button>
+                    <button class="heroes-wrapper__bg-btn" @click="hideBackground('seven')">Hide</button>
                 </div>
-            <li>{{ heroes[7].fullName }}</li>
-                <div class="heroes-wrapper__bg-wrapper">
+            <li @click="displayBackground('eight')">{{ heroes[7].fullName }}</li>
+                <div class="heroes-wrapper__bg-wrapper heroes-wrapper__bg-wrapper--eight">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
                         <strong>{{ heroes[8].nameAndLifeTime }}</strong> {{ heroes[7].background }}
                     </p>
-                    <button class="heroes-wrapper__bg-btn">Hide</button>
+                    <button class="heroes-wrapper__bg-btn" @click="hideBackground('eight')">Hide</button>
                 </div>
-            <li>{{ heroes[8].fullName }}</li>
-                <div class="heroes-wrapper__bg-wrapper">
+            <li @click="displayBackground('nine')">{{ heroes[8].fullName }}</li>
+                <div class="heroes-wrapper__bg-wrapper heroes-wrapper__bg-wrapper--nine">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
                         <strong>{{ heroes[8].nameAndLifeTime }}</strong> {{ heroes[8].background }}
                     </p>
-                    <button class="heroes-wrapper__bg-btn">Hide</button>
+                    <button class="heroes-wrapper__bg-btn" @click="hideBackground('nine')">Hide</button>
                 </div>
-            <li>{{ heroes[9].fullName }}</li>
-                <div class="heroes-wrapper__bg-wrapper">
+            <li @click="displayBackground('ten')">{{ heroes[9].fullName }}</li>
+                <div class="heroes-wrapper__bg-wrapper heroes-wrapper__bg-wrapper--ten">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
                         <strong>{{ heroes[9].nameAndLifeTime }}</strong> {{ heroes[9].background }}
                     </p>
-                    <button class="heroes-wrapper__bg-btn">Hide</button>
+                    <button class="heroes-wrapper__bg-btn" @click="hideBackground('ten')">Hide</button>
                 </div>
-            <li>{{ heroes[10].fullName }}</li>
-                <div class="heroes-wrapper__bg-wrapper">
+            <li @click="displayBackground('eleven')">{{ heroes[10].fullName }}</li>
+                <div class="heroes-wrapper__bg-wrapper heroes-wrapper__bg-wrapper--eleven">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
                         <strong>{{ heroes[10].nameAndLifeTime }}</strong> {{ heroes[10].background }}
                     </p>
-                    <button class="heroes-wrapper__bg-btn">Hide</button>
+                    <button class="heroes-wrapper__bg-btn" @click="hideBackground('eleven')">Hide</button>
                 </div>
-            <li>{{ heroes[11].fullName }}</li>
-                <div class="heroes-wrapper__bg-wrapper">
+            <li @click="displayBackground('twelve')">{{ heroes[11].fullName }}</li>
+                <div class="heroes-wrapper__bg-wrapper heroes-wrapper__bg-wrapper--twelve">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
                         <strong>{{ heroes[11].nameAndLifeTime }}</strong> {{ heroes[11].background }}
                     </p>
-                    <button class="heroes-wrapper__bg-btn">Hide</button>
+                    <button class="heroes-wrapper__bg-btn" @click="hideBackground('twelve')">Hide</button>
                 </div>
-            <li>{{ heroes[12].fullName }}</li>
-                <div class="heroes-wrapper__bg-wrapper">
+            <li @click="displayBackground('thirteen')">{{ heroes[12].fullName }}</li>
+                <div class="heroes-wrapper__bg-wrapper heroes-wrapper__bg-wrapper--thirteen">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
                         <strong>{{ heroes[12].nameAndLifeTime }}</strong> {{ heroes[12].background }}
                     </p>
-                    <button class="heroes-wrapper__bg-btn">Hide</button>
+                    <button class="heroes-wrapper__bg-btn" @click="hideBackground('thirteen')">Hide</button>
                 </div>
-            <li>{{ heroes[13].fullName }}</li>
-                <div class="heroes-wrapper__bg-wrapper">
+            <li @click="displayBackground('fourteen')">{{ heroes[13].fullName }}</li>
+                <div class="heroes-wrapper__bg-wrapper heroes-wrapper__bg-wrapper--fourteen">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
                         <strong>{{ heroes[13].nameAndLifeTime }}</strong> {{ heroes[13].background }}
                     </p>
-                    <button class="heroes-wrapper__bg-btn">Hide</button>
+                    <button class="heroes-wrapper__bg-btn" @click="hideBackground('fourteen')">Hide</button>
                 </div>
-            <li>{{ heroes[14].fullName }}</li>
-                <div class="heroes-wrapper__bg-wrapper">
+            <li @click="displayBackground('fifteen')">{{ heroes[14].fullName }}</li>
+                <div class="heroes-wrapper__bg-wrapper heroes-wrapper__bg-wrapper--fifteen">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
                         <strong>{{ heroes[14].nameAndLifeTime }}</strong> {{ heroes[14].background }}
                     </p>
-                    <button class="heroes-wrapper__bg-btn">Hide</button>
+                    <button class="heroes-wrapper__bg-btn" @click="hideBackground('fifteen')">Hide</button>
                 </div>
-            <li>{{ heroes[15].fullName }}</li>
-                <div class="heroes-wrapper__bg-wrapper">
+            <li @click="displayBackground('sixteen')">{{ heroes[15].fullName }}</li>
+                <div class="heroes-wrapper__bg-wrapper heroes-wrapper__bg-wrapper--sixteen">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
                         <strong>{{ heroes[15].nameAndLifeTime }}</strong> {{ heroes[15].background }}
                     </p>
-                    <button class="heroes-wrapper__bg-btn">Hide</button>
+                    <button class="heroes-wrapper__bg-btn" @click="hideBackground('sixteen')">Hide</button>
                 </div>
-            <li>{{ heroes[16].fullName }}</li>
-                <div class="heroes-wrapper__bg-wrapper">
+            <li @click="displayBackground('seventeen')">{{ heroes[16].fullName }}</li>
+                <div class="heroes-wrapper__bg-wrapper heroes-wrapper__bg-wrapper--seventeen">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
                         <strong>{{ heroes[16].nameAndLifeTime }}</strong> {{ heroes[16].background }}
                     </p>
-                    <button class="heroes-wrapper__bg-btn">Hide</button>
+                    <button class="heroes-wrapper__bg-btn" @click="hideBackground('seventeen')">Hide</button>
                 </div>
-            <li>{{ heroes[17].fullName }}</li>
-                <div class="heroes-wrapper__bg-wrapper">
+            <li @click="displayBackground('eighteen')">{{ heroes[17].fullName }}</li>
+                <div class="heroes-wrapper__bg-wrapper heroes-wrapper__bg-wrapper--eighteen">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
                         <strong>{{ heroes[17].nameAndLifeTime }}</strong> {{ heroes[17].background }}
                     </p>
-                    <button class="heroes-wrapper__bg-btn">Hide</button>
+                    <button class="heroes-wrapper__bg-btn" @click="hideBackground('eighteen')">Hide</button>
                 </div>
-            <li>{{ heroes[18].fullName }}</li>
-                <div class="heroes-wrapper__bg-wrapper">
+            <li @click="displayBackground('nineteen')">{{ heroes[18].fullName }}</li>
+                <div class="heroes-wrapper__bg-wrapper heroes-wrapper__bg-wrapper--nineteen">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
                         <strong>{{ heroes[18].nameAndLifeTime }}</strong> {{ heroes[18].background }}
                     </p>
-                    <button class="heroes-wrapper__bg-btn">Hide</button>
+                    <button class="heroes-wrapper__bg-btn" @click="hideBackground('nineteen')">Hide</button>
                 </div>
-            <li>{{ heroes[19].fullName }}</li>
-                <div class="heroes-wrapper__bg-wrapper">
+            <li @click="displayBackground('twenty')">{{ heroes[19].fullName }}</li>
+                <div class="heroes-wrapper__bg-wrapper heroes-wrapper__bg-wrapper--twenty">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
                         <strong>{{ heroes[19].nameAndLifeTime }}</strong> {{ heroes[19].background }}
                     </p>
-                    <button class="heroes-wrapper__bg-btn">Hide</button>
+                    <button class="heroes-wrapper__bg-btn" @click="hideBackground('twenty')">Hide</button>
                 </div>
-            <li>{{ heroes[20].fullName }}</li>
-                <div class="heroes-wrapper__bg-wrapper">
+            <li @click="displayBackground('twenty-one')">{{ heroes[20].fullName }}</li>
+                <div class="heroes-wrapper__bg-wrapper heroes-wrapper__bg-wrapper--twenty-one">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
                         <strong>{{ heroes[20].nameAndLifeTime }}</strong> {{ heroes[20].background }}
                     </p>
-                    <button class="heroes-wrapper__bg-btn">Hide</button>
+                    <button class="heroes-wrapper__bg-btn" @click="hideBackground('twenty-one')">Hide</button>
                 </div>
-            <li>{{ heroes[21].fullName }}</li>
-                <div class="heroes-wrapper__bg-wrapper">
+            <li @click="displayBackground('twenty-two')">{{ heroes[21].fullName }}</li>
+                <div class="heroes-wrapper__bg-wrapper heroes-wrapper__bg-wrapper--twenty-two">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
                         <strong>{{ heroes[21].nameAndLifeTime }}</strong> {{ heroes[21].background }}
                     </p>
-                    <button class="heroes-wrapper__bg-btn">Hide</button>
+                    <button class="heroes-wrapper__bg-btn" @click="hideBackground('twenty-two')">Hide</button>
                 </div>
-            <li>{{ heroes[22].fullName }}</li>
-                <div class="heroes-wrapper__bg-wrapper">
+            <li @click="displayBackground('twenty-three')">{{ heroes[22].fullName }}</li>
+                <div class="heroes-wrapper__bg-wrapper heroes-wrapper__bg-wrapper--twenty-three">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
                         <strong>{{ heroes[22].nameAndLifeTime }}</strong> {{ heroes[22].background }}
                     </p>
-                    <button class="heroes-wrapper__bg-btn">Hide</button>
+                    <button class="heroes-wrapper__bg-btn" @click="hideBackground('twenty-three')">Hide</button>
                 </div>
-            <li>{{ heroes[23].fullName }}</li>
-                <div class="heroes-wrapper__bg-wrapper">
+            <li @click="displayBackground('twenty-four')">{{ heroes[23].fullName }}</li>
+                <div class="heroes-wrapper__bg-wrapper heroes-wrapper__bg-wrapper--twenty-four">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
                         <strong>{{ heroes[23].nameAndLifeTime }}</strong> {{ heroes[23].background }}
                     </p>
-                    <button class="heroes-wrapper__bg-btn">Hide</button>
+                    <button class="heroes-wrapper__bg-btn" @click="hideBackground('twenty-four')">Hide</button>
                 </div>
-            <li>{{ heroes[24].fullName }}</li>
-                <div class="heroes-wrapper__bg-wrapper">
+            <li @click="displayBackground('twenty-five')">{{ heroes[24].fullName }}</li>
+                <div class="heroes-wrapper__bg-wrapper heroes-wrapper__bg-wrapper--twenty-five">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
                         <strong>{{ heroes[24].nameAndLifeTime }}</strong> {{ heroes[24].background }}
                     </p>
-                    <button class="heroes-wrapper__bg-btn">Hide</button>
+                    <button class="heroes-wrapper__bg-btn" @click="hideBackground('twenty-five')">Hide</button>
                 </div>
-            <li>{{ heroes[25].fullName }}</li>
-                <div class="heroes-wrapper__bg-wrapper">
+            <li @click="displayBackground('twenty-six')">{{ heroes[25].fullName }}</li>
+                <div class="heroes-wrapper__bg-wrapper heroes-wrapper__bg-wrapper--twenty-six">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
                         <strong>{{ heroes[25].nameAndLifeTime }}</strong> {{ heroes[25].background }}
                     </p>
-                    <button class="heroes-wrapper__bg-btn">Hide</button>
+                    <button class="heroes-wrapper__bg-btn" @click="hideBackground('twenty-six')">Hide</button>
                 </div>
-            <li>{{ heroes[26].fullName }}</li>
-                <div class="heroes-wrapper__bg-wrapper">
+            <li @click="displayBackground('twenty-seven')">{{ heroes[26].fullName }}</li>
+                <div class="heroes-wrapper__bg-wrapper heroes-wrapper__bg-wrapper--twenty-seven">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
                         <strong>{{ heroes[26].nameAndLifeTime }}</strong> {{ heroes[26].background }}
                     </p>
-                    <button class="heroes-wrapper__bg-btn">Hide</button>
+                    <button class="heroes-wrapper__bg-btn" @click="hideBackground('twenty-seven')">Hide</button>
                 </div>
         </ol>
     </div>
@@ -363,6 +363,17 @@ export default {
                     background: 'was a Thracian gladiator, who along with the Gauls Crixus and Oenomaus, a Roman Castus, and a Celt Gannicus, was one of the slave leaders in the Third Servile War, a major slave uprising against the Roman Republic.'
                 }
             ]
+        }
+    },
+    methods: {
+        displayBackground(heroe) {
+            const background = document.querySelector(`.heroes-wrapper__bg-wrapper--${heroe}`);
+            background.style.display = 'block';
+        },
+
+        hideBackground(heroe) {
+            const background = document.querySelector(`.heroes-wrapper__bg-wrapper--${heroe}`);
+            background.style.display = 'none';
         }
     },
 }
