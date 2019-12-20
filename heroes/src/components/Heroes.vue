@@ -1,5 +1,8 @@
 <template>
     <div class="heroes-wrapper">
+        <div class="heroes-wrapper__search-wrapper">
+            <input type="text" placeholder="search a hero" class="heroes-wrapper__search-input">
+        </div>
         <ol class="heroes-wrapper__list">
             <li @click="displayBackground('one')">{{ heroes[0].fullName }}</li>
                 <div class="heroes-wrapper__bg-wrapper heroes-wrapper__bg-wrapper--one">
@@ -415,6 +418,25 @@ export default {
         &__bg-btn {
             font-size: 0.65rem;
             text-transform: uppercase;
+        }
+
+        &__search-wrapper {
+            margin-bottom: 2rem;
+        }
+
+        &__search-input {
+            width: 40%;
+            padding: 0.8rem;
+            outline: none;
+            font-size: 1rem;
+            color: #34495E;
+            text-align: center;
+            text-transform: capitalize;
+            border: solid 0.1px #34495E;
+        }
+
+        &__search-input::placeholder {
+            color: #34495E;
         }
     }
 </style>
