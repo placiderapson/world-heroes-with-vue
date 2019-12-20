@@ -385,8 +385,6 @@ export default {
         margin: 0 auto;
         
         &__list {
-            list-style: none;
-            
             li {
                 font-weight: bold;
                 font-size: 1.2rem;
