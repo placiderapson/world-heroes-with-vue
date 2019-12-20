@@ -89,12 +89,11 @@
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
-                <!-- Proceed from here! -->
             <li>{{ heroes[11].fullName }}</li>
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
-                        <strong>Michelangelo di Lodovico Buonarroti Simoni (6 March 1475 – 18 February 1564)</strong>, commonly known as Michelangelo was an Italian sculptor, painter, architect, poet, and engineer of the High Renaissance who exerted an unparalleled influence on the development of Western art.
+                        <strong>{{ heroes[11].nameAndLifeTime }}</strong> {{ heroes[11].background }}
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
@@ -102,7 +101,7 @@
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
-                        <strong>Helen Adams Keller (June 27, 1880 – June 1, 1968)</strong> was an American author, political activist, and lecturer. She was the first deafblind person to earn a Bachelor of Arts degree.
+                        <strong>{{ heroes[12].nameAndLifeTime }}</strong> {{ heroes[12].background }}
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
@@ -110,7 +109,7 @@
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
-                        <strong>Ludwig van Beethoven (17 December 1770 – 26 March 1827)</strong> was a German composer and pianist. A crucial figure in the transition between the Classical and Romantic eras in Western art music, he remains one of the most famous and influential of all composers.
+                        <strong>{{ heroes[13].nameAndLifeTime }}</strong> {{ heroes[13].background }}
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
@@ -118,7 +117,7 @@
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
-                        <strong>Walter Elias "Walt" Disney (December 5, 1901 – December 15, 1966)</strong> was an American business magnate, animator, cartoonist, producer, director, screenwriter, entrepreneur, and voice actor. A major figure within the American animation industry and throughout the world, he is regarded as an international icon, and philanthropist, well known for his influence and contributions to the field of entertainment during the 20th century.
+                        <strong>{{ heroes[14].nameAndLifeTime }}</strong> {{ heroes[14].background }}
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
@@ -126,7 +125,7 @@
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
-                        <strong>The Wright brothers, Orville (August 19, 1871 – January 30, 1948) and Wilbur (April 16, 1867 – May 30, 1912)</strong>, were two American brothers, inventors, and aviation pioneers who were credited with inventing and building the world's first successful airplane and making the first controlled, powered and sustained heavier-than-air human flight, on December 17, 1903. In the two years afterward, the brothers developed their flying machine into the first practical fixed-wing aircraft. Although not the first to build and fly experimental aircraft, the Wright brothers were the first to invent aircraft controls that made fixed-wing powered flight possible.
+                        <strong>{{ heroes[15].nameAndLifeTime }}</strong> {{ heroes[15].background }}
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
@@ -134,7 +133,7 @@
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
-                        <strong>Franklin Delano Roosevelt; January 30, 1882 – April 12, 1945)</strong>, commonly known by his initials, FDR, 32nd President of the United States (1933–1945), served for 12 years and four terms until his death in 1945, the only president ever to do so, and a central figure in world events during the mid-20th century, leading the United States during a time of worldwide economic depression and total war.
+                        <strong>{{ heroes[16].nameAndLifeTime }}</strong> {{ heroes[16].background }}
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
@@ -142,7 +141,7 @@
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
-                        <strong>Charles Robert Darwin, FRS (12 February 1809 – 19 April 1882)</strong> was an English naturalist. He established that all species of life have descended over time from common ancestors, and proposed the scientific theory that this branching pattern of evolution resulted from a process that he called natural selection, in which the struggle for existence has a similar effect to the artificial selection involved in selective breeding.
+                        <strong>{{ heroes[17].nameAndLifeTime }}</strong> {{ heroes[17].background }}
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
@@ -150,7 +149,7 @@
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
-                        <strong>Albert Einstein (14 March 1879 – 18 April 1955)</strong> was a German-born theoretical physicist who developed the general theory of relativity, one of the two pillars of modern physics (alongside quantum mechanics). While best known for his mass–energy equivalence formula E = mc2 (which has been dubbed "the world's most famous equation"), he received the 1921 Nobel Prize in Physics "for his services to theoretical physics, and especially for his discovery of the law of the photoelectric effect".
+                        <strong>{{ heroes[18].nameAndLifeTime }}</strong> {{ heroes[18].background }}
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
@@ -158,7 +157,7 @@
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
-                        <strong>Thomas Jefferson (April 13, 1743 (April 2, 1743 O.S.) – July 4, 1826)</strong> was an American Founding Father, the principal author of the Declaration of Independence (1776) and the third President of the United States (1801–1809). At the beginning of the American Revolution, he served in the Continental Congress, representing Virginia and then served as a wartime Governor of Virginia (1779–1781).
+                        <strong>{{ heroes[19].nameAndLifeTime }}</strong> {{ heroes[19].background }}
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
@@ -166,7 +165,7 @@
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
-                        <strong>Jack Roosevelt "Jackie" Robinson (January 31, 1919 – October 24, 1972)</strong> was an American baseball player who became the first African American to play in Major League Baseball (MLB) in the modern era. Robinson broke the baseball color line when the Brooklyn Dodgers started him at first base on April 15, 1947. As the first major league team to play a black man since the 1880s, the Dodgers ended racial segregation that had relegated black players to the Negro leagues for six decades.
+                        <strong>{{ heroes[20].nameAndLifeTime }}</strong> {{ heroes[20].background }}
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
@@ -174,7 +173,7 @@
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
-                        <strong>Harriet Tubman (born Araminta Harriet Ross; 1820 – March 10, 1913)</strong> was an African-American abolitionist, humanitarian, and Union spy during the American Civil War. Born into slavery, Tubman escaped and subsequently made more than thirteen missions to rescue more than 70 slaves using the network of antislavery activists and safe houses known as the Underground Railroad.
+                        <strong>{{ heroes[21].nameAndLifeTime }}</strong> {{ heroes[21].background }}
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
@@ -182,7 +181,7 @@
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
-                        <strong>Galileo Galilei (15 February 1564 – 8 January 1642)</strong>, often known mononymously as Galileo, was an Italian physicist, mathematician, engineer, astronomer, and philosopher who played a major role in the scientific revolution. His achievements include improvements to the telescope and consequent astronomical observations and support for Copernicanism.
+                        <strong>{{ heroes[22].nameAndLifeTime }}</strong> {{ heroes[22].background }}
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
@@ -190,7 +189,7 @@
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
-                        <strong>Rosa Louise McCauley Parks (February 4, 1913 – October 24, 2005)</strong> was an African-American civil rights activist, whom the U.S. Congress called "the first lady of civil rights" and "the mother of the freedom movement".
+                        <strong>{{ heroes[23].nameAndLifeTime }}</strong> {{ heroes[23].background }}
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
@@ -198,7 +197,7 @@
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
-                        <strong>Neil Alden Armstrong (August 5, 1930 – August 25, 2012)</strong> was an American astronaut and the first person to walk on the Moon. He was also an aerospace engineer, naval aviator, test pilot, and university professor.
+                        <strong>{{ heroes[24].nameAndLifeTime }}</strong> {{ heroes[24].background }}
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
@@ -206,7 +205,7 @@
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
-                        <strong>Napoleon Bonaparte,(15 August 1769 – 5 May 1821)</strong> was a French military and political leader who rose to prominence during the latter stages of the French Revolution and its associated wars in Europe.
+                        <strong>{{ heroes[25].nameAndLifeTime }}</strong> {{ heroes[25].background }}
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
@@ -214,7 +213,7 @@
                 <div class="heroes-wrapper__bg-wrapper">
                     <h5 class="heroes-wrapper__bg-title">Background</h5>
                     <p class="heroes-wrapper__bg-detail">
-                        <strong>Spartacus (c. 109–71 BC)</strong> was a Thracian gladiator, who along with the Gauls Crixus and Oenomaus, a Roman Castus, and a Celt Gannicus, was one of the slave leaders in the Third Servile War, a major slave uprising against the Roman Republic.
+                        <strong>{{ heroes[26].nameAndLifeTime }}</strong> {{ heroes[26].background }}
                     </p>
                     <button class="heroes-wrapper__bg-btn">Hide</button>
                 </div>
@@ -283,54 +282,85 @@ export default {
                     nameAndLifeTime: 'Benjamin Franklin (January 17, 1706 [O.S. January 6, 1705] – April 17, 1790)',
                     background: 'was one of the Founding Fathers of the United States.'
                 },
-                // TOD: Proceed from here
                 {
-                    fullName: 'Michelangelo'
+                    fullName: 'Michelangelo',
+                    nameAndLifeTime: 'Michelangelo di Lodovico Buonarroti Simoni (6 March 1475 – 18 February 1564)',
+                    background: ', commonly known as Michelangelo was an Italian sculptor, painter, architect, poet, and engineer of the High Renaissance who exerted an unparalleled influence on the development of Western art.'
                 },
                 {
-                    fullName: 'Helen Keller'
+                    fullName: 'Helen Keller',
+                    nameAndLifeTime: 'Helen Adams Keller (June 27, 1880 – June 1, 1968)',
+                    background: 'was an American author, political activist, and lecturer. She was the first deafblind person to earn a Bachelor of Arts degree.'
                 },
                 {
-                    fullName: 'Ludwig van Beethoven'
+                    fullName: 'Ludwig van Beethoven',
+                    nameAndLifeTime: 'Ludwig van Beethoven (17 December 1770 – 26 March 1827)',
+                    background: 'was a German composer and pianist. A crucial figure in the transition between the Classical and Romantic eras in Western art music, he remains one of the most famous and influential of all composers.'
                 },
                 {
-                    fullName: 'Walt Disney'
+                    fullName: 'Walt Disney',
+                    nameAndLifeTime: 'Walter Elias "Walt" Disney (December 5, 1901 – December 15, 1966)',
+                    background: 'was an American business magnate, animator, cartoonist, producer, director, screenwriter, entrepreneur, and voice actor. A major figure within the American animation industry and throughout the world, he is regarded as an international icon, and philanthropist, well known for his influence and contributions to the field of entertainment during the 20th century.'
                 },
                 {
-                    fullName: 'Wright brothers'
+                    fullName: 'Wright brothers',
+                    nameAndLifeTime: 'The Wright brothers, Orville (August 19, 1871 – January 30, 1948) and Wilbur (April 16, 1867 – May 30, 1912)',
+                    background: ', were two American brothers, inventors, and aviation pioneers who were credited with inventing and building the world\'s first successful airplane and making the first controlled, powered and sustained heavier-than-air human flight, on December 17, 1903. In the two years afterward, the brothers developed their flying machine into the first practical fixed-wing aircraft. Although not the first to build and fly experimental aircraft, the Wright brothers were the first to invent aircraft controls that made fixed-wing powered flight possible.'
                 },
                 {
-                    fullName: 'Franklin D. Roosevelt'
+                    fullName: 'Franklin D. Roosevelt',
+                    nameAndLifeTime: 'Franklin Delano Roosevelt; January 30, 1882 – April 12, 1945)',
+                    background: ', commonly known by his initials, FDR, 32nd President of the United States (1933–1945), served for 12 years and four terms until his death in 1945, the only president ever to do so, and a central figure in world events during the mid-20th century, leading the United States during a time of worldwide economic depression and total war.'
                 },
                 {
-                    fullName: 'Charles Darwin'
+                    fullName: 'Charles Darwin',
+                    nameAndLifeTime: 'Charles Robert Darwin, FRS (12 February 1809 – 19 April 1882)',
+                    background: 'was an English naturalist. He established that all species of life have descended over time from common ancestors, and proposed the scientific theory that this branching pattern of evolution resulted from a process that he called natural selection, in which the struggle for existence has a similar effect to the artificial selection involved in selective breeding.'
                 },
                 {
-                    fullName: 'Albert Einstein'
+                    fullName: 'Albert Einstein',
+                    nameAndLifeTime: 'Albert Einstein (14 March 1879 – 18 April 1955)',
+                    background: 'was a German-born theoretical physicist who developed the general theory of relativity, one of the two pillars of modern physics (alongside quantum mechanics). While best known for his mass–energy equivalence formula E = mc2 (which has been dubbed "the world\'s most famous equation"), he received the 1921 Nobel Prize in Physics "for his services to theoretical physics, and especially for his discovery of the law of the photoelectric effect".'
                 },
                 {
-                    fullName: 'Thomas Jefferson'
+                    fullName: 'Thomas Jefferson',
+                    nameAndLifeTime: 'Thomas Jefferson (April 13, 1743 (April 2, 1743 O.S.) – July 4, 1826)',
+                    background: 'was an American Founding Father, the principal author of the Declaration of Independence (1776) and the third President of the United States (1801–1809). At the beginning of the American Revolution, he served in the Continental Congress, representing Virginia and then served as a wartime Governor of Virginia (1779–1781).'
                 },
                 {
-                    fullName: 'Jackie Robinson'
+                    fullName: 'Jackie Robinson',
+                    nameAndLifeTime: 'Jack Roosevelt "Jackie" Robinson (January 31, 1919 – October 24, 1972)',
+                    background: 'was an American baseball player who became the first African American to play in Major League Baseball (MLB) in the modern era. Robinson broke the baseball color line when the Brooklyn Dodgers started him at first base on April 15, 1947. As the first major league team to play a black man since the 1880s, the Dodgers ended racial segregation that had relegated black players to the Negro leagues for six decades.'
                 },
                 {
-                    fullName: 'Harriet Tubman'
+                    fullName: 'Harriet Tubman',
+                    nameAndLifeTime: 'Harriet Tubman (born Araminta Harriet Ross; 1820 – March 10, 1913)',
+                    background: 'was an African-American abolitionist, humanitarian, and Union spy during the American Civil War. Born into slavery, Tubman escaped and subsequently made more than thirteen missions to rescue more than 70 slaves using the network of antislavery activists and safe houses known as the Underground Railroad.'
                 },
                 {
-                    fullName: 'Galileo Galilei'
+                    fullName: 'Galileo Galilei',
+                    nameAndLifeTime: 'Galileo Galilei (15 February 1564 – 8 January 1642)',
+                    background: ', often known mononymously as Galileo, was an Italian physicist, mathematician, engineer, astronomer, and philosopher who played a major role in the scientific revolution. His achievements include improvements to the telescope and consequent astronomical observations and support for Copernicanism.'
                 },
                 {
-                    fullName: 'Rosa Parks'
+                    fullName: 'Rosa Parks',
+                    nameAndLifeTime: 'Rosa Louise McCauley Parks (February 4, 1913 – October 24, 2005)',
+                    background: 'was an African-American civil rights activist, whom the U.S. Congress called "the first lady of civil rights" and "the mother of the freedom movement".'
                 },
                 {
-                    fullName: 'Neil Armstrong'
+                    fullName: 'Neil Armstrong',
+                    nameAndLifeTime: 'Neil Alden Armstrong (August 5, 1930 – August 25, 2012)',
+                    background: 'was an American astronaut and the first person to walk on the Moon. He was also an aerospace engineer, naval aviator, test pilot, and university professor.'
                 },
                 {
-                    fullName: 'Napoleon Bonaparte'
+                    fullName: 'Napoleon Bonaparte',
+                    nameAndLifeTime: 'Napoleon Bonaparte,(15 August 1769 – 5 May 1821)',
+                    background: 'was a French military and political leader who rose to prominence during the latter stages of the French Revolution and its associated wars in Europe.'
                 },
                 {
-                    fullName: 'Spartacus'
+                    fullName: 'Spartacus',
+                    nameAndLifeTime: 'Spartacus (c. 109–71 BC)',
+                    background: 'was a Thracian gladiator, who along with the Gauls Crixus and Oenomaus, a Roman Castus, and a Celt Gannicus, was one of the slave leaders in the Third Servile War, a major slave uprising against the Roman Republic.'
                 }
             ]
         }
