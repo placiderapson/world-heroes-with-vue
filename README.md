@@ -13,3 +13,19 @@ $ git clone https://github.com/placideirandora/world-heroes-with-vue.js
 ```
 $ npm install
 ```
+
+### Start The Development Server
+
+```
+$ npm run serve
+```
+
+### Start The Production Server 
+
+```
+$ npm run build
+```
+
+```
+$ npm run serve
+```
