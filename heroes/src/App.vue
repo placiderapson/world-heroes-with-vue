@@ -9,7 +9,7 @@
 import Heroes from './components/Heroes';
 
 export default {
-  name: 'app',
+  name: 'App',
   components: {
     Heroes
   }
