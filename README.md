@@ -5,7 +5,7 @@ A front-end web application for providing brief backgrounds about world's well-k
 ### Clone The Project
 
 ```
-$ git clone https://github.com/placideirandora/world-heroes-with-vue.js
+$ git clone https://github.com/placiderapson/world-heroes-with-vue.js
 ```
 
 ### Install Required Dependencies
